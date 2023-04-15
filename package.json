@@ -2,7 +2,10 @@
   "name": "t-rex-brainer",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:urish/t-rex-brainer.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/urish/t-rex-brainer.git"
+  },
   "author": "Uri Shaked <uri@salsa4fun.co.il>",
   "license": "MIT",
   "scripts": {
@@ -10,9 +13,15 @@
   },
   "dependencies": {
     "muse-js": "^0.6.0",
-    "systemjs": "^0.20.18"
+    "systemjs": "^0.20.19"
   },
   "devDependencies": {
-    "live-server": "^1.2.0"
-  }
+    "live-server": "^1.1.0"
+  },
+  "description": "the trex runner game extracted from chrome offline err page.",
+  "bugs": {
+    "url": "https://github.com/urish/t-rex-brainer/issues"
+  },
+  "homepage": "https://github.com/urish/t-rex-brainer#readme",
+  "keywords": []
 }
